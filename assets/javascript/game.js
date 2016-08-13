@@ -30,8 +30,7 @@
 			computerGuess = keyboardchoices[Math.floor(Math.random() * keyboardchoices.length)];
 		
 		
-
-		} else if (userGuess !== computerGuess) {
+		}else if (userGuess !== computerGuess) {
 			guessesleft--;}
 
 		document.querySelector('.wins').innerHTML = "Wins: " + wins;
